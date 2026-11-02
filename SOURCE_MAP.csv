@@ -1,0 +1,13 @@
+packaged_path,source,treatment
+01_XGBoost_SHAP/train_validate.py,validation/code/validate.py,Copied without source-code changes.
+02_1D_PDP_Priority/calculate_pdp.py,validation/code/response_validation.py,Extracted the original calculation section before the bootstrap loop.
+02_1D_PDP_Priority/optional_full_response_validation.py,validation/code/response_validation.py,Copied without source-code changes.
+common/analysis.py,validation/code/zoning_validation.py + response_validation.py,Separated according to the archived formulas; added a guard for unsupported observations; writes outputs separately by dimension.
+*/plot_pdp_priority.py + common/plot_helpers.py,deliverables/ML_PDP_priority_bundle/plot_final_figures.py,Separated by function; updated wording to identify transformed dimensionless coordinates.
+04_3D_PDP_Priority/contour_slices.py,deliverables/pdp_slices_preview/make_slices.py,Removed temporary dependency paths; added portable output and font entry points.
+04_3D_PDP_Priority/plot_3d_contour_slices.py,deliverables/three_dimensional_revision/make_3d_with_slices.py,Made input and output paths portable and added a font entry point.
+run.py,Added during repository packaging,"Unified entry point, directory preparation, and result aggregation; no algorithm changes."
+01_XGBoost_SHAP/compute_shap.py,response_validation.py + interpretation_audit.py,Retained the archived SHAP and 2048-reference-sample interaction calculation logic as a separate entry point.
+README.md,Added during repository packaging,English project overview based on the archived run guide and code entry points; no algorithm changes.
+RUNNING_GUIDE.md,Translated and renamed from the archived Chinese running guide,English operating instructions; analytical definitions and workflow retained.
+.gitignore,Added during repository packaging,"Excludes local input data, model binaries, caches, and generated outputs from version control."

@@ -1,0 +1,21 @@
+{
+  "python_syntax_files": 15,
+  "full_training_rerun": false,
+  "bootstrap_rerun": false,
+  "source_training_identical": true,
+  "source_optional_bootstrap_identical": true,
+  "response_max_absolute_difference": {
+    "1d": 0.0,
+    "2d": 0.0,
+    "3d": 0.0
+  },
+  "zoning_identical": {
+    "1d": true,
+    "2d": true,
+    "3d": true
+  },
+  "compared_rows": 57075,
+  "entry_help": "passed",
+  "plot_execution": "not rerun in this packaging task; syntax checked, archived plotting functions retained",
+  "SHAP_max_absolute_difference": 0.0
+}

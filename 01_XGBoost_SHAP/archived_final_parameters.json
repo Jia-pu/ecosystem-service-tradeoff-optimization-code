@@ -1,0 +1,13 @@
+{
+  "learning_rate": 0.04,
+  "subsample": 0.85,
+  "colsample_bytree": 0.9,
+  "min_child_weight": 10,
+  "reg_lambda": 10.0,
+  "objective": "reg:squarederror",
+  "tree_method": "hist",
+  "n_jobs": 4,
+  "max_depth": 3,
+  "n_estimators": 1000,
+  "random_state": 42
+}
